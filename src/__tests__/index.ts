@@ -1,26 +1,32 @@
-import Router from '../index';
+const router = require('../../lib/index');
 
 const comp1 = `<h2> Component 1 </h2>`;
 const comp2 = `<h2> Component 1 </h2>`;
 const page = `<div id="root"></div>`;
-const outlet = document.createElement('div');
 
-describe('Router', () => {
+describe('router', () => {
   it('Should be a function', () => {
-    expect(typeof Router === 'function').toBeTruthy();
+    expect(typeof router === 'function').toBeTruthy();
   });
-  it('Should work as expected', () => {
-    let router = new Router();
-    router.defineRoutes([
+  it('Should take route object without failing', () => {
+    let r = new router();
+    r.defineRoutes([
       {
         path: 'page1',
-        component: comp1,
+        component: `<h2>123213</h2>`,
       },
       {
         path: 'page2',
-        component: comp2,
+        component: `<h2>sdasdasd</h2>`,
+      },
+      {
+        path: 'One',
+        component: `<h2>Hi this is atest</h2>`,
       },
     ]);
-    router.setOutlet(outlet);
+  });
+  it('Should set outlet without failing', () => {
+    let r = new router();
+    r.setOutlet('#div');
   });
 });

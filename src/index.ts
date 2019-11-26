@@ -47,3 +47,7 @@ class Router {
     return window.location.hash.slice(1);
   }
 }
+
+if (typeof exports === 'object' && typeof exports.nodeName !== 'string') {
+  module.exports = Router;
+}

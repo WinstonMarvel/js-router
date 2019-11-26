@@ -22,7 +22,9 @@
     "router",
     "javascript",
     "HTML5",
-    "es6"
+    "es6",
+    "simple",
+    "browser"
   ],
   "bugs": {
     "url": "https://github.com/WinstonMarvel/js-router/issues"
@@ -30,8 +32,11 @@
   "homepage": "https://github.com/WinstonMarvel/js-router#readme",
   "devDependencies": {
     "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.12",
+    "@types/rewire": "^2.5.28",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
+    "rewire": "^4.0.1",
     "ts-jest": "^24.1.0",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
