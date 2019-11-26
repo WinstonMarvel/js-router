@@ -1,4 +1,4 @@
-# FindLaw Site/Blog -> WP Export Generator
+# light-js-router
 
 This package is an easy way to simply switch HTML contents using routing based on browser URL hash.
 
