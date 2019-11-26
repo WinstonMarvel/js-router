@@ -1,5 +1,5 @@
 {
-  "name": "js-router",
+  "name": "light-js-router",
   "version": "1.0.0",
   "description": "Simple declarative routing for HTML Components",
   "main": "index.js",
