@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WinstonMarvel/js-router.git"
+    "url": "git+https://github.com/WinstonMarvel/light-js-router.git"
   },
   "keywords": [
     "router",
@@ -27,9 +27,9 @@
     "browser"
   ],
   "bugs": {
-    "url": "https://github.com/WinstonMarvel/js-router/issues"
+    "url": "https://github.com/WinstonMarvel/light-js-router/issues"
   },
-  "homepage": "https://github.com/WinstonMarvel/js-router#readme",
+  "homepage": "https://github.com/WinstonMarvel/light-js-router#readme",
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "@types/node": "^12.12.12",
