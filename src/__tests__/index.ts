@@ -25,6 +25,21 @@ describe('router', () => {
       },
     ]);
   });
+  it('Should set default content without failing', () => {
+    let r = new router();
+    r.defineRoutes([
+      {
+        path: 'page1',
+        component: `<h2>123213</h2>`,
+      },
+      {
+        path: 'page2',
+        component: `<h2>sdasdasd</h2>`,
+      },
+    ]);
+    r.setDefaultPath('page1');
+    r.setOutlet('#div');
+  });
   it('Should set outlet without failing', () => {
     let r = new router();
     r.setOutlet('#div');
